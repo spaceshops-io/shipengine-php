@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Documentation</title>
+            <title>Documentation</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -40,31 +41,46 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/shipengine.html" class="">ShipEngine</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/shipengine-message.html" class="">Message</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/shipengine-util.html" class="">Util</a>
+                
+            </li>
+            </ul>
 
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/shipengine.html"><abbr title="\ShipEngine">ShipEngine</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/shipengine-message.html"><abbr title="\ShipEngine\Message">Message</abbr></a></li>
-                                            <li><a href="namespaces/shipengine-model.html"><abbr title="\ShipEngine\Model">Model</abbr></a></li>
-                                            <li><a href="namespaces/shipengine-service.html"><abbr title="\ShipEngine\Service">Service</abbr></a></li>
-                                            <li><a href="namespaces/shipengine-util.html"><abbr title="\ShipEngine\Util">Util</abbr></a></li>
-                                    </ul>
                         </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
 
-        <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
-                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/ShipEngine.html"><abbr title="\ShipEngine">ShipEngine</abbr></a></h3>
-                        <ul class="phpdocumentor-list">
-                                    <li><a href="packages/ShipEngine-Message.html"><abbr title="\ShipEngine\Message">Message</abbr></a></li>
-                                    <li><a href="packages/ShipEngine-Model.html"><abbr title="\ShipEngine\Model">Model</abbr></a></li>
-                                    <li><a href="packages/ShipEngine-Service.html"><abbr title="\ShipEngine\Service">Service</abbr></a></li>
-                                    <li><a href="packages/ShipEngine-Util.html"><abbr title="\ShipEngine\Util">Util</abbr></a></li>
-                            </ul>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/ShipEngine.html" class="">ShipEngine</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/ShipEngine-Message.html" class="">Message</a>
+                
+            </li>
+                    <li>
+                <a href="packages/ShipEngine-Util.html" class="">Util</a>
+                
+            </li>
+            </ul>
+
                         </section>
-
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -78,8 +94,8 @@
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <div class="phpdocumentor-class-graph">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                        <div class="phpdocumentor-class-graph">
         <img class="phpdocumentor-class-graph__graph" src="graphs/classes.svg" id="scene" />
     </div>
     <script type="text/javascript">
@@ -90,7 +106,8 @@
             smoothScroll: false
         })
     </script>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -101,7 +118,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="graphs/classes.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
@@ -110,5 +126,9 @@
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>

@@ -5,6 +5,7 @@ namespace ShipEngine\Util;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;
 use Psr\Log\LogLevel;
+use Stringable;
 
 /**
  * Class ShipEngineLogger
@@ -15,7 +16,7 @@ final class ShipEngineLogger implements LoggerInterface
 {
     use LoggerTrait;
 
-    public function log($level, $message, array $context = array())
+    public function log($level, Stringable|string $message, array $context = []): void
     {
         $message = (string)$message;
 
